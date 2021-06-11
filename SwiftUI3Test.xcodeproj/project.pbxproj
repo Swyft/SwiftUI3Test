@@ -7,18 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B2465BF32673D84D0096DC01 /* ShipActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2465BF22673D84D0096DC01 /* ShipActor.swift */; };
+		B2465BF52673D9820096DC01 /* ShipDocumentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = B2465BF42673D9820096DC01 /* ShipDocumentation.docc */; };
 		B27B7AE026711A9B00217E04 /* SwiftUI3TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27B7ADF26711A9B00217E04 /* SwiftUI3TestApp.swift */; };
 		B27B7AE226711A9B00217E04 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27B7AE126711A9B00217E04 /* ContentView.swift */; };
 		B27B7AE426711A9C00217E04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B27B7AE326711A9C00217E04 /* Assets.xcassets */; };
 		B27B7AE726711A9C00217E04 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B27B7AE626711A9C00217E04 /* Preview Assets.xcassets */; };
+		B29375FE2672D7A3003F4910 /* Starship.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29375FD2672D7A3003F4910 /* Starship.swift */; };
+		B29376002672D923003F4910 /* StarshipServiceResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29375FF2672D923003F4910 /* StarshipServiceResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B2465BF22673D84D0096DC01 /* ShipActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipActor.swift; sourceTree = "<group>"; };
+		B2465BF42673D9820096DC01 /* ShipDocumentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = ShipDocumentation.docc; sourceTree = "<group>"; };
+		B2465BF62673E7B10096DC01 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B27B7ADC26711A9B00217E04 /* SwiftUI3Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI3Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B27B7ADF26711A9B00217E04 /* SwiftUI3TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI3TestApp.swift; sourceTree = "<group>"; };
 		B27B7AE126711A9B00217E04 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B27B7AE326711A9C00217E04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B27B7AE626711A9C00217E04 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B29375FD2672D7A3003F4910 /* Starship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Starship.swift; sourceTree = "<group>"; };
+		B29375FF2672D923003F4910 /* StarshipServiceResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarshipServiceResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +44,7 @@
 		B27B7AD326711A9B00217E04 = {
 			isa = PBXGroup;
 			children = (
+				B2465BF62673E7B10096DC01 /* README.md */,
 				B27B7ADE26711A9B00217E04 /* SwiftUI3Test */,
 				B27B7ADD26711A9B00217E04 /* Products */,
 			);
@@ -55,6 +65,10 @@
 				B27B7AE126711A9B00217E04 /* ContentView.swift */,
 				B27B7AE326711A9C00217E04 /* Assets.xcassets */,
 				B27B7AE526711A9C00217E04 /* Preview Content */,
+				B29375FD2672D7A3003F4910 /* Starship.swift */,
+				B29375FF2672D923003F4910 /* StarshipServiceResponse.swift */,
+				B2465BF22673D84D0096DC01 /* ShipActor.swift */,
+				B2465BF42673D9820096DC01 /* ShipDocumentation.docc */,
 			);
 			path = SwiftUI3Test;
 			sourceTree = "<group>";
@@ -137,8 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2465BF32673D84D0096DC01 /* ShipActor.swift in Sources */,
 				B27B7AE226711A9B00217E04 /* ContentView.swift in Sources */,
 				B27B7AE026711A9B00217E04 /* SwiftUI3TestApp.swift in Sources */,
+				B2465BF52673D9820096DC01 /* ShipDocumentation.docc in Sources */,
+				B29376002672D923003F4910 /* StarshipServiceResponse.swift in Sources */,
+				B29375FE2672D7A3003F4910 /* Starship.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +295,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +325,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
